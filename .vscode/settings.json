@@ -1,22 +1,23 @@
 {
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "all",
-  "files.autoSave": "onFocusChange",
-  "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": 1,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    }
-  ],
-  "liveServer.settings.donotShowInfoMsg": true,
-  "phpserver.port": 8080,
-  "liveSassCompile.settings.autoprefix": [],
-  "eslint.codeAction.disableRuleComment": {},
+  // "editor.tabSize": 2,
+  // "editor.renderWhitespace": "all",
+  // "files.autoSave": "onFocusChange",
+  // "workbench.startupEditor": "newUntitledFile",
+  // "window.zoomLevel": 1,
+  // "diffEditor.ignoreTrimWhitespace": false,
+  // "liveSassCompile.settings.formats": [
+  //   {
+  //     "format": "expanded",
+  //     "extensionName": ".css",
+  //     "savePath": "/css"
+  //   }
+  // ],
+  // "liveServer.settings.donotShowInfoMsg": true,
+  // "phpserver.port": 8080,
+  // "liveSassCompile.settings.autoprefix": [],
 
-  "editor.formatOnSave": true, // Prettier を実行
-  "editor.codeActionsOnSave": { "source.fixAll.eslint": true } // ESLint を実行
+  // "eslint.codeAction.disableRuleComment": {},
+
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true }, // ESLint を実行
+  "editor.formatOnSave": true // Prettier を実行
 }
